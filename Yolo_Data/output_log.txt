@@ -2,9 +2,9 @@ Mono path[0] = 'C:/Programmation/Workspace/UnityProjects/WebRTC/Builds/Yolo_Data
 Mono path[1] = 'C:/Programmation/Workspace/UnityProjects/WebRTC/Builds/Yolo_Data/Mono'
 Mono config path = 'C:/Programmation/Workspace/UnityProjects/WebRTC/Builds/Yolo_Data/Mono/etc'
 PlayerConnection initialized from C:/Programmation/Workspace/UnityProjects/WebRTC/Builds/Yolo_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55396
-Multi-casting "[IP] 25.81.26.195 [Port] 55396 [Flags] 2 [Guid] 1774333132 [EditorId] 4105716299 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-1253ISK) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [25.81.26.195:55396]
+PlayerConnection initialized network socket : 0.0.0.0 55299
+Multi-casting "[IP] 25.81.26.195 [Port] 55299 [Flags] 2 [Guid] 56628062 [EditorId] 2650334251 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-1253ISK) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [25.81.26.195:55299]
 Initialize engine version: 5.4.1f1 (649f48bbbf0f)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -29,23 +29,23 @@ Platform assembly: C:\Programmation\Workspace\UnityProjects\WebRTC\Builds\Yolo_D
 Loading C:\Programmation\Workspace\UnityProjects\WebRTC\Builds\Yolo_Data\Managed\Byn.WebRtcNetwork.Native.dll into Unity Child Domain
 Platform assembly: C:\Programmation\Workspace\UnityProjects\WebRTC\Builds\Yolo_Data\Managed\WebRtcCSharp.dll (this message is harmless)
 Loading C:\Programmation\Workspace\UnityProjects\WebRTC\Builds\Yolo_Data\Managed\WebRtcCSharp.dll into Unity Child Domain
-- Completed reload, in  0.269 seconds
+- Completed reload, in  0.296 seconds
 Platform assembly: C:\Programmation\Workspace\UnityProjects\WebRTC\Builds\Yolo_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Programmation\Workspace\UnityProjects\WebRTC\Builds\Yolo_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3600x1080 at -1680,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.995068 ms
+UnloadTime: 1.173276 ms
 chat: Setting up WebRtcNetworkFactory
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:403)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
 NetworkManagement:Start() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:102)
  
-(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 403)
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
 
 Initializing native webrtc ...
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -112,22 +112,22 @@ UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:403)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
 NetworkManagement:Start() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:105)
  
-(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 403)
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2aa4 -> priority: 1 
-  Thread -> id: 3818 -> priority: 1 
+  Thread -> id: 3b68 -> priority: 1 
+  Thread -> id: 307c -> priority: 1 
 chat: Initializing webrtc network
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:403)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
 NetworkManagement:Setup() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:127)
-NetworkManagement:OpenRoomButtonPressed() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:442)
+NetworkManagement:OpenRoomButtonPressed() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:425)
 UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
 UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:630)
 UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:765)
@@ -142,16 +142,16 @@ UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\builds
 UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
 UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:277)
  
-(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 403)
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
 
 chat: WebRTCNetwork created
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:403)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
 NetworkManagement:Setup() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:133)
-NetworkManagement:OpenRoomButtonPressed() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:442)
+NetworkManagement:OpenRoomButtonPressed() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:425)
 UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
 UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:630)
 UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:765)
@@ -166,14 +166,14 @@ UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\builds
 UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
 UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:277)
  
-(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 403)
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
 
-StartServer fd
+StartServer aaa
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManagement:OpenRoomButtonPressed() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:446)
+NetworkManagement:OpenRoomButtonPressed() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:429)
 UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
 UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:630)
 UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:765)
@@ -188,52 +188,316 @@ UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\builds
 UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
 UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:277)
  
-(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 446)
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 429)
 
 Platform assembly: C:\Programmation\Workspace\UnityProjects\WebRTC\Builds\Yolo_Data\Managed\Mono.Security.dll (this message is harmless)
-chat: Server started. Address: fd
+chat: Server start failed.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:403)
-NetworkManagement:HandleNetwork() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:200)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
+NetworkManagement:HandleNetwork() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:207)
 NetworkManagement:FixedUpdate() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:172)
  
-(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 403)
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
+
+Cleanup!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManagement:Reset() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:144)
+NetworkManagement:HandleNetwork() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:208)
+NetworkManagement:FixedUpdate() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:172)
+ 
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 144)
+
+chat: Initializing webrtc network
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
+NetworkManagement:Setup() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:127)
+NetworkManagement:OpenRoomButtonPressed() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:425)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:630)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:765)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:523)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:422)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:410)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:277)
+ 
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
+
+chat: WebRTCNetwork created
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
+NetworkManagement:Setup() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:133)
+NetworkManagement:OpenRoomButtonPressed() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:425)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:630)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:765)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:523)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:422)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:410)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:277)
+ 
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
+
+StartServer lolol
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManagement:OpenRoomButtonPressed() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:429)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:630)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:765)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:523)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:422)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:410)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:277)
+ 
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 429)
+
+chat: Server started. Address: lolol
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
+NetworkManagement:HandleNetwork() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:197)
+NetworkManagement:FixedUpdate() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:172)
+ 
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
 
 chat: New local connection! ID: 1
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:403)
-NetworkManagement:HandleNetwork() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:227)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
+NetworkManagement:HandleNetwork() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:224)
 NetworkManagement:FixedUpdate() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:172)
  
-(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 403)
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
 
 chat: New user 1 joined the room.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:403)
-NetworkManagement:HandleNetwork() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:235)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
+NetworkManagement:HandleNetwork() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:232)
 NetworkManagement:FixedUpdate() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:172)
  
-(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 403)
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
 
-New user 1 joined the room.
+1
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-NetworkManagement:SendString(String, Boolean) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:355)
-NetworkManagement:HandleNetwork() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:236)
+Latency:SaveCSV() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\Latency.cs:74)
+Latency:Update() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\Latency.cs:28)
+ 
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/Latency.cs Line: 74)
+
+121
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Latency:SaveCSV() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\Latency.cs:75)
+Latency:Update() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\Latency.cs:28)
+ 
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/Latency.cs Line: 75)
+
+51.55754
+33.17261
+32.66716
+28.99742
+48.35129
+16.22772
+16.28685
+16.41655
+16.16669
+16.65115
+15.9111
+16.25061
+16.43562
+31.91376
+15.83481
+15.84625
+49.27826
+49.38507
+16.65688
+50.26054
+49.64447
+49.85237
+49.84093
+66.24794
+15.56969
+16.28685
+16.06369
+16.53862
+33.02956
+33.53882
+15.70892
+16.18004
+16.29448
+16.15524
+32.12547
+16.31355
+16.0675
+16.16287
+16.06369
+16.46233
+15.35988
+33.7677
+32.25136
+32.66335
+16.49094
+15.66696
+15.61546
+17.55524
+16.2487
+16.18576
+16.36887
+16.96777
+15.91682
+31.31676
+23.94676
+16.51192
+16.54053
+16.26205
+16.59203
+32.96661
+16.1171
+16.31355
+16.00456
+16.79802
+16.13235
+33.00095
+16.38603
+16.02745
+15.7795
+15.74516
+16.49475
+15.11765
+15.41901
+16.30783
+31.30913
+32.68814
+16.59775
+16.48712
+16.222
+16.12663
+16.35551
+16.13045
+16.02364
+17.11845
+31.73828
+16.01219
+16.29448
+32.61948
+32.97043
+34.58214
+33.01239
+32.43637
+32.58133
+33.37669
+50.28725
+32.97234
+33.04863
+32.75299
+32.07016
+33.0658
+32.66525
+32.81403
+32.93228
+33.10013
+50.99106
+33.3519
+33.17642
+33.03146
+32.59659
+16.31927
+49.92676
+50.89188
+48.25974
+49.61395
+66.55121
+49.16
+49.74747
+49.52621
+49.24393
+49.40414
+51.04828
+
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+Latency:SaveCSV() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\Latency.cs:83)
+Latency:Update() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\Latency.cs:28)
+ 
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/Latency.cs Line: 83)
+
+SaveCSV
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Latency:SaveCSV() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\Latency.cs:84)
+Latency:Update() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\Latency.cs:28)
+ 
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/Latency.cs Line: 84)
+
+chat: Local Connection ID 1 disconnected
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
+NetworkManagement:HandleNetwork() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:251)
 NetworkManagement:FixedUpdate() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:172)
  
-(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 355)
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
+
+chat: User 1 left the room.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NetworkManagement:Append(String) (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:386)
+NetworkManagement:HandleNetwork() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:261)
+NetworkManagement:FixedUpdate() (at C:\Programmation\Workspace\UnityProjects\WebRTC\Assets\NetworkManagement.cs:172)
+ 
+(Filename: C:/Programmation/Workspace/UnityProjects/WebRTC/Assets/NetworkManagement.cs Line: 386)
 
 Network factory is being destroyed. All created basic networks will be destroyed as well!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
